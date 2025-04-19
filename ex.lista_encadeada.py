@@ -84,3 +84,31 @@ lista3 = {
 
 print(remover(lista3, 20))
 lista3
+
+#============#alterando pelo Github e fazendo upload no vsCode =================#
+
+#Criando listas encadeadas na mão:
+list1 = {
+    "valor" : 1,
+    "proximo" : {
+        "valor" : 2,
+        "proximo" : {
+            "valor" : 4,
+            "proximo" : None
+
+
+        }
+    }
+}
+
+
+list2 = {
+    "valor" : 3,
+    "proximo" : {
+        "valor" : 5,
+        "proximo" : {
+            "valor" : 1,
+            "proximo" : None
+        }
+    }
+}
